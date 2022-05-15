@@ -1,0 +1,19 @@
+{
+  "name": "wam-arena-server",
+  "version": "1.0.0",
+  "description": "Server for WAM Arena",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Offensively/WAM-Arena-Server.git"
+  },
+  "author": "Woody Willis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Offensively/WAM-Arena-Server/issues"
+  },
+  "homepage": "https://github.com/Offensively/WAM-Arena-Server#readme"
+}
