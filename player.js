@@ -6,10 +6,19 @@ class Player {
     this.username = username;
     this.skin = skin;
     this.connection = connection;
+    this.inGame = false;
   }
 
   disconnect() {
     this.connection.destroy();
+  }
+
+  setInGame(inGame) {
+    this.inGame = inGame;
+  }
+
+  isInGame() {
+    return this.inGame;
   }
 }
 
